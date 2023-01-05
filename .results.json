@@ -1,0 +1,59 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-01-05T19:24:36.905Z",
+    "end": "2023-01-05T19:24:37.066Z",
+    "duration": 161
+  },
+  "tests": [
+    {
+      "title": "is defined",
+      "fullTitle": "index.js currentUser is defined",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome to Flatbook, \"",
+      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Welcome to Flatbook, ' to contain 'Grace Hopper'",
+        "showDiff": false,
+        "actual": "Welcome to Flatbook, ",
+        "stack": "AssertionError: expected 'Welcome to Flatbook, ' to contain 'Grace Hopper'\n    at Context.<anonymous> (test/indexTest.js:15:38)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is defined",
+      "fullTitle": "index.js currentUser is defined",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome to Flatbook, \"",
+      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
